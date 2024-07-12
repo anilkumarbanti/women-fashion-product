@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "frock",
+        "description": "frock",
+        "price": 1287.24
+    },
+ {
+        "id": "2",
+        "name": "dress",
+        "description": "dress",
+        "price": 287.24
+    },
+    {
+ "id":"3",
+ "name":"jacket",
+ "description":"stylish jacket",
+ "price": 999
+ },
+ {
+ "id":"4",
+ "name":"skirt",
+ "description":"skirt",
+ "price": 788.2
+ }
+]
