@@ -1,13 +1,29 @@
 package com.fashion.product.model;
-//Without database
-public class FemaleFashionProduct {
-	
+
+
+import jakarta.annotation.Generated;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+
+@Entity
+@Table(name="FashionProduct")
+public class FemaleFashionProductWithDataBase {
+	@Id
+	//@GeneratedValue(strategy = GenerationType.AUTO)
 	private String id;	
 	private String name;
 	private String description;
 	private double price;
 	
-	public FemaleFashionProduct(String id, String name, String description, double price) {
+	public FemaleFashionProductWithDataBase()
+	{
+		
+	}
+	public FemaleFashionProductWithDataBase(String id, String name, String description, double price) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -47,6 +63,5 @@ public class FemaleFashionProduct {
 		this.price = price;
 	}
 
-	
 
 }

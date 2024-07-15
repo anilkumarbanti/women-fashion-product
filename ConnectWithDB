@@ -1,0 +1,20 @@
+
+step 1:
+Add the H2 database configuartion in application.properties
+src/main/resouces/
+
+step 2:
+check whether you are able to test database connection
+url: localhost:8082/h2-console
+
+step 3:
+modify the model class with @entity and @id annotations
+
+step 4:
+create a repository
+
+step 5:
+create a controller
+
+step 6:
+create a service interface and its implemenatation class
